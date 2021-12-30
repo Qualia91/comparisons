@@ -17,7 +17,7 @@ main() ->
     ProcessesRunning = process_matrix(0, Matrix),
     UpdatedMatrix = collect(ProcessesRunning - 1, []),
 
-    io:format("~p~n", [UpdatedMatrix]).
+    lists:foreach(fun(Row) -> io:format("~p~n", [Row]) end, UpdatedMatrix).
 
 -spec process_matrix(integer(), list(list(integer()))) -> integer().
 process_matrix(ProcessesRunning, []) ->
@@ -36,6 +36,6 @@ collect(-1, Matrix) ->
     Matrix;
 collect(ProcessesLeft, Matrix) ->
     receive
-        {ProcessesLeft, Row} ->
+        {_ProcessesLeft, Row} ->
             collect(ProcessesLeft - 1, [Row | Matrix])
     end.
