@@ -35,7 +35,6 @@ class Main {
 
         // Recursion
         RecLoop(0);
-
     }
 
     public static void RecLoop(int index) {
