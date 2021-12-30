@@ -3,7 +3,9 @@ local function RunAndTime(func, name, iters)
     local before = os.clock()
     _ = func(iters)
     local after = os.clock()
-    print(string.format(name .. " took %0.6f seconds to find fib number " .. iters, after - before))
+    print(string.format(name ..
+        " took %0.6f seconds to find fib number " .. iters,
+        after - before))
 end
 
 -- recursion

@@ -17,7 +17,8 @@ run_and_time(Func, Name, Iter) ->
     StartTime = erlang:timestamp(),
     _ = Func(Iter),
     EndTime = erlang:timestamp(),
-    io:format("~s took ~p to find fib number ~p~n", [Name, timer:now_diff(EndTime,StartTime) / 1000000, Iter]).
+    io:format("~s took ~p to find fib number ~p~n", 
+        [Name, timer:now_diff(EndTime,StartTime) / 1000000, Iter]).
     
 -spec fib_rec(integer()) -> integer().
 fib_rec(0) ->
