@@ -1,2 +1,3 @@
 *.class
 *.beam
+currying/
