@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="label">0</p>
+
+<button type="button" 
+    onclick="addFunction()">
+        + 1
+    </button>
+
+<script>
+var number = 0;
+var label = document.getElementById("label");
+function addFunction() {
+    number += 1;
+    label.innerHTML = number;
+}
+</script>
+
+</body>
+</html>

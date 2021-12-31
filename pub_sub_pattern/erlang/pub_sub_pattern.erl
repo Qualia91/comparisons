@@ -15,8 +15,8 @@ main() ->
     PublisherPID ! {sub, SubThree},
     PublisherPID ! {pub, <<"Some Data">>},
     PublisherPID ! {unsub, SubThree},
-    PublisherPID ! {pub, <<"Other Data">>}.
-
+    PublisherPID ! {pub, <<"Other Data">>},
+    ok.
 
 create_publisher(Subscribers) ->
     receive
