@@ -14,12 +14,12 @@
   </p>-->
 </div>
 
-<!--  <h3>Episodes</h3>
+<h3>Episodes</h3>
 <ol>
     <li>
       <a href="https://youtu.be/ZQ2R1dOnLBw">Episode 1: Simple Binary Tree in 3 Languages: Lua, Java & Erlang</a>
     </li>
-    <li>
+<!--     <li>
       <a href="https://youtu.be/Z1za5EpTVl4">Episode 2: For Loops in 3 Languages: Lua, Java & Erlang</a>
     </li>
     <li>
@@ -28,6 +28,10 @@
     <li>
       <a href="https://youtu.be/-733Ogl-DSM">Episode 4: Fibonacci Sequence in 3 Languages: Lua, Java & Erlang</a>
     </li>
-    
- </ol>-->
+    <li>
+      <a href="https://youtu.be/Ds2vrD9Oadw">Episode 5: Map Filter Reduce in 3 Languages: Lua, Java & Erlang</a>
+    </li>
+
+    -->
+ </ol>
 
