@@ -31,7 +31,9 @@
     <li>
       <a href="https://youtu.be/Ds2vrD9Oadw">Episode 5: Map Filter Reduce in 3 Languages: Lua, Java & Erlang</a>
     </li>
-
+    <li>
+      <a href="https://youtu.be/xnC7SrCncwE">Episode 6: Publish/Subscribe in 3 Languages: Lua, Java & Erlang</a>
+    </li>
     -->
  </ol>
 
