@@ -19,7 +19,7 @@
     <li>
       <a href="https://youtu.be/ZQ2R1dOnLBw">Episode 1: Simple Binary Tree in 3 Languages: Lua, Java & Erlang</a>
     </li>
-<!--     <li>
+    <li>
       <a href="https://youtu.be/Z1za5EpTVl4">Episode 2: For Loops in 3 Languages: Lua, Java & Erlang</a>
     </li>
     <li>
@@ -34,6 +34,5 @@
     <li>
       <a href="https://youtu.be/xnC7SrCncwE">Episode 6: Publish/Subscribe in 3 Languages: Lua, Java & Erlang</a>
     </li>
-    -->
  </ol>
 
